@@ -1,0 +1,6 @@
+framework module Pods_Collabera_Team_Collabera_TeamUITests {
+  umbrella header "Pods-Collabera Team-Collabera TeamUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

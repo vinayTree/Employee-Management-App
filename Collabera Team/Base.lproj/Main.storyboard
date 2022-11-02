@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JYB-cU-Iw6">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign In View Controller-->
+        <scene sceneID="byd-zV-7FN">
+            <objects>
+                <viewController id="JYB-cU-Iw6" customClass="SignInViewController" customModule="EmployeeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bxg-Dr-y1S">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdb-Hh-iWE">
+                                <rect key="frame" x="87" y="422" width="214" height="30"/>
+                                <color key="backgroundColor" red="0.1058823529" green="0.61176470589999998" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QW2-xf-opc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="signInClicked:" destination="JYB-cU-Iw6" eventType="touchUpInside" id="TFy-k2-ZGp"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Company ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="khr-p7-VES">
+                                <rect key="frame" x="45" y="311" width="299" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="ugn-Wi-jDP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GOJ-39-Fv8">
+                                <rect key="frame" x="65" y="367" width="260" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="qR3-ze-qnw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Collabera Employee Management Application" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8d-Nc-qjg">
+                                <rect key="frame" x="16" y="184" width="358" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="gYW-k8-iuo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.1058823529" green="0.61176470589999998" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="collaberaLoginIcon" translatesAutoresizingMaskIntoConstraints="NO" id="1fv-SA-UJw">
+                                <rect key="frame" x="16" y="67" width="358" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="hgh-Qw-uSv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="©2022 by Collabera." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntx-E3-QoD">
+                                <rect key="frame" x="16" y="777" width="358" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvo-am-37w">
+                                <rect key="frame" x="45" y="460" width="299" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="e0O-di-efi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <state key="normal" title="Forgot Password?">
+                                    <color key="titleColor" red="0.1058823529" green="0.61176470589999998" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Krg-eb-fIT">
+                                <rect key="frame" x="45" y="497" width="299" height="32"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="GBv-qC-Abz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <state key="normal" title="Register Here">
+                                    <color key="titleColor" red="0.1058823529" green="0.61176470589999998" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="egq-BI-CBC"/>
+                        <color key="backgroundColor" red="0.043137259779999999" green="0.054901964960000001" blue="0.12549020350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Krg-eb-fIT" firstAttribute="leading" secondItem="egq-BI-CBC" secondAttribute="leading" constant="45" id="5bX-pk-SRR"/>
+                            <constraint firstItem="GOJ-39-Fv8" firstAttribute="top" secondItem="khr-p7-VES" secondAttribute="bottom" constant="22" id="5fv-YV-Vkm"/>
+                            <constraint firstItem="1fv-SA-UJw" firstAttribute="leading" secondItem="egq-BI-CBC" secondAttribute="leading" constant="16" id="5jx-sz-VHM"/>
+                            <constraint firstItem="ntx-E3-QoD" firstAttribute="leading" secondItem="egq-BI-CBC" secondAttribute="leading" constant="16" id="6Pb-T4-JAo"/>
+                            <constraint firstItem="egq-BI-CBC" firstAttribute="trailing" secondItem="z8d-Nc-qjg" secondAttribute="trailing" constant="16" id="8XN-8n-lET"/>
+                            <constraint firstItem="ntx-E3-QoD" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Krg-eb-fIT" secondAttribute="bottom" constant="53" id="8iK-2z-NZ9"/>
+                            <constraint firstItem="z8d-Nc-qjg" firstAttribute="leading" secondItem="egq-BI-CBC" secondAttribute="leading" constant="16" id="AAO-qF-G0G"/>
+                            <constraint firstItem="egq-BI-CBC" firstAttribute="trailing" secondItem="ntx-E3-QoD" secondAttribute="trailing" constant="16" id="AWk-AG-Iai"/>
+                            <constraint firstItem="1fv-SA-UJw" firstAttribute="top" secondItem="egq-BI-CBC" secondAttribute="top" constant="20" id="ECe-Uv-kbj"/>
+                            <constraint firstItem="egq-BI-CBC" firstAttribute="trailing" secondItem="kdb-Hh-iWE" secondAttribute="trailing" constant="89" id="G6A-eb-Zgm"/>
+                            <constraint firstItem="egq-BI-CBC" firstAttribute="trailing" secondItem="GOJ-39-Fv8" secondAttribute="trailing" constant="65" id="Pb1-bc-MJq"/>
+                            <constraint firstItem="egq-BI-CBC" firstAttribute="trailing" secondItem="kvo-am-37w" secondAttribute="trailing" constant="46" id="SNK-yg-J7c"/>
+                            <constraint firstItem="egq-BI-CBC" firstAttribute="trailing" secondItem="khr-p7-VES" secondAttribute="trailing" constant="46" id="Uwb-gD-WKB"/>
+                            <constraint firstItem="kvo-am-37w" firstAttribute="top" secondItem="kdb-Hh-iWE" secondAttribute="bottom" constant="8" symbolic="YES" id="beZ-8B-lTM"/>
+                            <constraint firstItem="GOJ-39-Fv8" firstAttribute="leading" secondItem="egq-BI-CBC" secondAttribute="leading" constant="65" id="c4Y-EE-Q9T"/>
+                            <constraint firstItem="kvo-am-37w" firstAttribute="leading" secondItem="egq-BI-CBC" secondAttribute="leading" constant="45" id="dpg-ns-t6j"/>
+                            <constraint firstItem="kdb-Hh-iWE" firstAttribute="top" secondItem="GOJ-39-Fv8" secondAttribute="bottom" constant="21" id="eQ0-ir-7kk"/>
+                            <constraint firstItem="kdb-Hh-iWE" firstAttribute="leading" secondItem="egq-BI-CBC" secondAttribute="leading" constant="87" id="ift-Iy-Y7u"/>
+                            <constraint firstItem="Krg-eb-fIT" firstAttribute="top" secondItem="kvo-am-37w" secondAttribute="bottom" constant="7" id="sXk-kk-gX6"/>
+                            <constraint firstItem="egq-BI-CBC" firstAttribute="trailing" secondItem="Krg-eb-fIT" secondAttribute="trailing" constant="46" id="uxL-I1-FhH"/>
+                            <constraint firstItem="khr-p7-VES" firstAttribute="top" secondItem="z8d-Nc-qjg" secondAttribute="bottom" constant="55" id="v00-CU-qFi"/>
+                            <constraint firstItem="khr-p7-VES" firstAttribute="leading" secondItem="egq-BI-CBC" secondAttribute="leading" constant="45" id="wSV-yb-QyR"/>
+                            <constraint firstItem="egq-BI-CBC" firstAttribute="bottom" secondItem="ntx-E3-QoD" secondAttribute="bottom" constant="12" id="xeS-MI-Lbh"/>
+                            <constraint firstItem="z8d-Nc-qjg" firstAttribute="top" secondItem="1fv-SA-UJw" secondAttribute="bottom" constant="9" id="zJY-av-Qhj"/>
+                            <constraint firstItem="egq-BI-CBC" firstAttribute="trailing" secondItem="1fv-SA-UJw" secondAttribute="trailing" constant="16" id="zwf-U2-g2t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="khr-p7-VES" id="xq1-OV-GMP"/>
+                        <outlet property="passwordTextField" destination="GOJ-39-Fv8" id="uPL-E3-3Db"/>
+                        <outlet property="signInButton" destination="kdb-Hh-iWE" id="eOR-05-68l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3oQ-DB-Tex" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="262.5" y="-267.25352112676057"/>
+        </scene>
+        <!--Add EmployeeVC-->
+        <scene sceneID="uTR-qO-0dr">
+            <objects>
+                <viewController storyboardIdentifier="AddEmployeeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1Ih-Rz-olI" customClass="AddEmployeeVC" customModule="EmployeeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QUh-Ph-02J">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Cc3-0s-Vpt">
+                                <rect key="frame" x="0.0" y="47" width="390" height="713"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5S-fy-IMK">
+                                <rect key="frame" x="0.0" y="760" width="390" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="XVp-Pb-YQb"/>
+                                </constraints>
+                                <state key="normal" title="ADD EMPLOYEE"/>
+                                <connections>
+                                    <action selector="addEmployeeBtnTapped:" destination="1Ih-Rz-olI" eventType="touchUpInside" id="3hl-ib-nMq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8L2-de-cUL"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8L2-de-cUL" firstAttribute="trailing" secondItem="Cc3-0s-Vpt" secondAttribute="trailing" id="8uR-db-0A8"/>
+                            <constraint firstItem="c5S-fy-IMK" firstAttribute="leading" secondItem="Cc3-0s-Vpt" secondAttribute="leading" id="C6X-a0-F6J"/>
+                            <constraint firstItem="Cc3-0s-Vpt" firstAttribute="top" secondItem="8L2-de-cUL" secondAttribute="top" id="NcO-AG-tkm"/>
+                            <constraint firstItem="c5S-fy-IMK" firstAttribute="trailing" secondItem="Cc3-0s-Vpt" secondAttribute="trailing" id="TJI-Gh-T0q"/>
+                            <constraint firstItem="8L2-de-cUL" firstAttribute="bottom" secondItem="c5S-fy-IMK" secondAttribute="bottom" id="oRG-ny-dnx"/>
+                            <constraint firstItem="c5S-fy-IMK" firstAttribute="top" secondItem="Cc3-0s-Vpt" secondAttribute="bottom" id="pXU-bi-omT"/>
+                            <constraint firstItem="Cc3-0s-Vpt" firstAttribute="leading" secondItem="8L2-de-cUL" secondAttribute="leading" id="wnP-jn-7bI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addEmployeeBtn" destination="c5S-fy-IMK" id="UTS-vr-Tub"/>
+                        <outlet property="addEmployeeTableView" destination="Cc3-0s-Vpt" id="Vui-CC-nU6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FNj-lR-GjZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1846.875" y="-264.08450704225351"/>
+        </scene>
+        <!--Employees ListVC-->
+        <scene sceneID="6U7-F8-OnR">
+            <objects>
+                <viewController storyboardIdentifier="EmployeesListVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1WM-la-Nrg" customClass="EmployeesListVC" customModule="EmployeeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5As-80-H5W">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="i5j-IQ-3uC">
+                                <rect key="frame" x="0.0" y="47" width="390" height="763"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Mxc-Ds-RMv"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i5j-IQ-3uC" firstAttribute="top" secondItem="Mxc-Ds-RMv" secondAttribute="top" id="OBY-D4-Y9q"/>
+                            <constraint firstItem="i5j-IQ-3uC" firstAttribute="leading" secondItem="Mxc-Ds-RMv" secondAttribute="leading" id="r0X-Lp-xvb"/>
+                            <constraint firstItem="Mxc-Ds-RMv" firstAttribute="trailing" secondItem="i5j-IQ-3uC" secondAttribute="trailing" id="uiQ-Ip-bmF"/>
+                            <constraint firstItem="Mxc-Ds-RMv" firstAttribute="bottom" secondItem="i5j-IQ-3uC" secondAttribute="bottom" id="ydC-Qj-4if"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9ry-cY-NPF"/>
+                    <connections>
+                        <outlet property="employeeListTableView" destination="i5j-IQ-3uC" id="aeD-he-uAc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cT1-Dg-9es" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110" y="-267"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="collaberaLoginIcon" width="156" height="158"/>
+    </resources>
+</document>

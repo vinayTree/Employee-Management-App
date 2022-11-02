@@ -1,0 +1,1078 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60F4961306FCBE51FF348B8D /* Pods_Collabera_TeamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12747D1823D80090E8047C0D /* Pods_Collabera_TeamTests.framework */; };
+		7BF045EF2D8B6935932B373E /* Pods_Collabera_Team.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA075E7B6BE62ADC060F16E /* Pods_Collabera_Team.framework */; };
+		BE32F65FBC2D4F9215399976 /* Pods_Collabera_Team_Collabera_TeamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC602CB6BAE1439F684FA72E /* Pods_Collabera_Team_Collabera_TeamUITests.framework */; };
+		F52D1FEF2910FCB500D1A05F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D1FEE2910FCB500D1A05F /* AppDelegate.swift */; };
+		F52D1FF12910FCB500D1A05F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D1FF02910FCB500D1A05F /* SceneDelegate.swift */; };
+		F52D1FF62910FCB500D1A05F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52D1FF42910FCB500D1A05F /* Main.storyboard */; };
+		F52D1FF92910FCB500D1A05F /* Collabera_Team.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F52D1FF72910FCB500D1A05F /* Collabera_Team.xcdatamodeld */; };
+		F52D1FFB2910FCB700D1A05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52D1FFA2910FCB700D1A05F /* Assets.xcassets */; };
+		F52D1FFE2910FCB700D1A05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52D1FFC2910FCB700D1A05F /* LaunchScreen.storyboard */; };
+		F52D20092910FCB700D1A05F /* Collabera_TeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20082910FCB700D1A05F /* Collabera_TeamTests.swift */; };
+		F52D20132910FCB700D1A05F /* Collabera_TeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20122910FCB700D1A05F /* Collabera_TeamUITests.swift */; };
+		F52D20152910FCB700D1A05F /* Collabera_TeamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20142910FCB700D1A05F /* Collabera_TeamUITestsLaunchTests.swift */; };
+		F52D203B2911116400D1A05F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D202D2911116400D1A05F /* UIColor.swift */; };
+		F52D203C2911116400D1A05F /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D202E2911116400D1A05F /* UIView+AutoLayout.swift */; };
+		F52D203D2911116400D1A05F /* CircularShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D202F2911116400D1A05F /* CircularShapeLayer.swift */; };
+		F52D203E2911116400D1A05F /* RxBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20312911116400D1A05F /* RxBus.swift */; };
+		F52D203F2911116400D1A05F /* UiViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20332911116400D1A05F /* UiViewExtension.swift */; };
+		F52D20402911116400D1A05F /* CABasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20342911116400D1A05F /* CABasicAnimation.swift */; };
+		F52D20412911116400D1A05F /* CustomAnimationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20362911116400D1A05F /* CustomAnimationPresenter.swift */; };
+		F52D20422911116400D1A05F /* CustomAnimationDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20372911116400D1A05F /* CustomAnimationDismisser.swift */; };
+		F52D20432911116400D1A05F /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20382911116400D1A05F /* CustomNavigationController.swift */; };
+		F52D20442911116400D1A05F /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20392911116400D1A05F /* BaseView.swift */; };
+		F52D20A12911121100D1A05F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20A02911121100D1A05F /* MainCoordinator.swift */; };
+		F52D20A92911133200D1A05F /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20A42911133200D1A05F /* SplashCoordinator.swift */; };
+		F52D20AA2911133200D1A05F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20A62911133200D1A05F /* SplashViewController.swift */; };
+		F52D20AB2911133200D1A05F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20A82911133200D1A05F /* SplashView.swift */; };
+		F52D20F12911178400D1A05F /* SignInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20F02911178400D1A05F /* SignInCoordinator.swift */; };
+		F52D20F4291117A100D1A05F /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20F3291117A100D1A05F /* SignInViewModel.swift */; };
+		F52D20F7291117BB00D1A05F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20F6291117BB00D1A05F /* SignInViewController.swift */; };
+		F52D20FC291117DF00D1A05F /* SignInResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20F9291117DF00D1A05F /* SignInResponse.swift */; };
+		F52D20FD291117DF00D1A05F /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20FA291117DF00D1A05F /* SessionService.swift */; };
+		F52D20FE291117DF00D1A05F /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D20FB291117DF00D1A05F /* Authentication.swift */; };
+		F52D21192911186E00D1A05F /* EmployeesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D21182911186E00D1A05F /* EmployeesListVC.swift */; };
+		F52D211B2911187600D1A05F /* EmployeesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D211A2911187600D1A05F /* EmployeesCoordinator.swift */; };
+		F52D211D2911187C00D1A05F /* AddEmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D211C2911187C00D1A05F /* AddEmployeeVC.swift */; };
+		F52D211F2911188200D1A05F /* EmployeeDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D211E2911188200D1A05F /* EmployeeDetailsCoordinator.swift */; };
+		F52D21222911189600D1A05F /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D21212911189600D1A05F /* EmployeeViewModel.swift */; };
+		F52D2129291118B500D1A05F /* EmployeeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D2125291118B500D1A05F /* EmployeeTableCell.swift */; };
+		F52D212A291118B500D1A05F /* EnterDetailsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D2126291118B500D1A05F /* EnterDetailsTableCell.swift */; };
+		F52D212B291118B500D1A05F /* EmployeeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52D2127291118B500D1A05F /* EmployeeTableCell.xib */; };
+		F52D212C291118B500D1A05F /* EnterDetailsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52D2128291118B500D1A05F /* EnterDetailsTableCell.xib */; };
+		F52D212F291118C900D1A05F /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D212E291118C900D1A05F /* Employee.swift */; };
+		F55637C5291234B2003F1F8C /* EmployeeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55637C4291234B2003F1F8C /* EmployeeViewModelTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52D20052910FCB700D1A05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52D1FE32910FCB500D1A05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52D1FEA2910FCB500D1A05F;
+			remoteInfo = "Collabera Team";
+		};
+		F52D200F2910FCB700D1A05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52D1FE32910FCB500D1A05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52D1FEA2910FCB500D1A05F;
+			remoteInfo = "Collabera Team";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0912282C1104F76BAF5F8004 /* Pods-Collabera TeamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collabera TeamTests.debug.xcconfig"; path = "Target Support Files/Pods-Collabera TeamTests/Pods-Collabera TeamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12747D1823D80090E8047C0D /* Pods_Collabera_TeamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Collabera_TeamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA62AB4F5A8490AC74A0F5E /* Pods-Collabera Team.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collabera Team.debug.xcconfig"; path = "Target Support Files/Pods-Collabera Team/Pods-Collabera Team.debug.xcconfig"; sourceTree = "<group>"; };
+		1FB477C475EA8E9F2B479E71 /* Pods-Collabera Team-Collabera TeamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collabera Team-Collabera TeamUITests.debug.xcconfig"; path = "Target Support Files/Pods-Collabera Team-Collabera TeamUITests/Pods-Collabera Team-Collabera TeamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3168026E48BD9720C1BD5181 /* Pods-Collabera TeamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collabera TeamTests.release.xcconfig"; path = "Target Support Files/Pods-Collabera TeamTests/Pods-Collabera TeamTests.release.xcconfig"; sourceTree = "<group>"; };
+		63C2B8EB786B202B77032C17 /* Pods-Collabera Team-Collabera TeamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collabera Team-Collabera TeamUITests.release.xcconfig"; path = "Target Support Files/Pods-Collabera Team-Collabera TeamUITests/Pods-Collabera Team-Collabera TeamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6DA075E7B6BE62ADC060F16E /* Pods_Collabera_Team.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Collabera_Team.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89BEA4E5DED008D96160940 /* Pods-Collabera Team.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collabera Team.release.xcconfig"; path = "Target Support Files/Pods-Collabera Team/Pods-Collabera Team.release.xcconfig"; sourceTree = "<group>"; };
+		DC602CB6BAE1439F684FA72E /* Pods_Collabera_Team_Collabera_TeamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Collabera_Team_Collabera_TeamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52D1FEB2910FCB500D1A05F /* Collabera Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collabera Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52D1FEE2910FCB500D1A05F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F52D1FF02910FCB500D1A05F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F52D1FF52910FCB500D1A05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F52D1FF82910FCB500D1A05F /* Collabera_Team.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collabera_Team.xcdatamodel; sourceTree = "<group>"; };
+		F52D1FFA2910FCB700D1A05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F52D1FFD2910FCB700D1A05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F52D1FFF2910FCB700D1A05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52D20042910FCB700D1A05F /* Collabera TeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collabera TeamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52D20082910FCB700D1A05F /* Collabera_TeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collabera_TeamTests.swift; sourceTree = "<group>"; };
+		F52D200E2910FCB700D1A05F /* Collabera TeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collabera TeamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52D20122910FCB700D1A05F /* Collabera_TeamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collabera_TeamUITests.swift; sourceTree = "<group>"; };
+		F52D20142910FCB700D1A05F /* Collabera_TeamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collabera_TeamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F52D202D2911116400D1A05F /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F52D202E2911116400D1A05F /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		F52D202F2911116400D1A05F /* CircularShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularShapeLayer.swift; sourceTree = "<group>"; };
+		F52D20312911116400D1A05F /* RxBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxBus.swift; sourceTree = "<group>"; };
+		F52D20332911116400D1A05F /* UiViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiViewExtension.swift; sourceTree = "<group>"; };
+		F52D20342911116400D1A05F /* CABasicAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CABasicAnimation.swift; sourceTree = "<group>"; };
+		F52D20362911116400D1A05F /* CustomAnimationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationPresenter.swift; sourceTree = "<group>"; };
+		F52D20372911116400D1A05F /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
+		F52D20382911116400D1A05F /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		F52D20392911116400D1A05F /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F52D20A02911121100D1A05F /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		F52D20A42911133200D1A05F /* SplashCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
+		F52D20A62911133200D1A05F /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		F52D20A82911133200D1A05F /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F52D20F02911178400D1A05F /* SignInCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInCoordinator.swift; sourceTree = "<group>"; };
+		F52D20F3291117A100D1A05F /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		F52D20F6291117BB00D1A05F /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F52D20F9291117DF00D1A05F /* SignInResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInResponse.swift; sourceTree = "<group>"; };
+		F52D20FA291117DF00D1A05F /* SessionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		F52D20FB291117DF00D1A05F /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		F52D21182911186E00D1A05F /* EmployeesListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListVC.swift; sourceTree = "<group>"; };
+		F52D211A2911187600D1A05F /* EmployeesCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesCoordinator.swift; sourceTree = "<group>"; };
+		F52D211C2911187C00D1A05F /* AddEmployeeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEmployeeVC.swift; sourceTree = "<group>"; };
+		F52D211E2911188200D1A05F /* EmployeeDetailsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsCoordinator.swift; sourceTree = "<group>"; };
+		F52D21212911189600D1A05F /* EmployeeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		F52D2125291118B500D1A05F /* EmployeeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeTableCell.swift; sourceTree = "<group>"; };
+		F52D2126291118B500D1A05F /* EnterDetailsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterDetailsTableCell.swift; sourceTree = "<group>"; };
+		F52D2127291118B500D1A05F /* EmployeeTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeTableCell.xib; sourceTree = "<group>"; };
+		F52D2128291118B500D1A05F /* EnterDetailsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterDetailsTableCell.xib; sourceTree = "<group>"; };
+		F52D212E291118C900D1A05F /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		F55637C4291234B2003F1F8C /* EmployeeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModelTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52D1FE82910FCB500D1A05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF045EF2D8B6935932B373E /* Pods_Collabera_Team.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D20012910FCB700D1A05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F4961306FCBE51FF348B8D /* Pods_Collabera_TeamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D200B2910FCB700D1A05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE32F65FBC2D4F9215399976 /* Pods_Collabera_Team_Collabera_TeamUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3617DAB523B34658E437AF73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DA075E7B6BE62ADC060F16E /* Pods_Collabera_Team.framework */,
+				DC602CB6BAE1439F684FA72E /* Pods_Collabera_Team_Collabera_TeamUITests.framework */,
+				12747D1823D80090E8047C0D /* Pods_Collabera_TeamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F167A62E3B058427E3E38BEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AA62AB4F5A8490AC74A0F5E /* Pods-Collabera Team.debug.xcconfig */,
+				B89BEA4E5DED008D96160940 /* Pods-Collabera Team.release.xcconfig */,
+				1FB477C475EA8E9F2B479E71 /* Pods-Collabera Team-Collabera TeamUITests.debug.xcconfig */,
+				63C2B8EB786B202B77032C17 /* Pods-Collabera Team-Collabera TeamUITests.release.xcconfig */,
+				0912282C1104F76BAF5F8004 /* Pods-Collabera TeamTests.debug.xcconfig */,
+				3168026E48BD9720C1BD5181 /* Pods-Collabera TeamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F52D1FE22910FCB500D1A05F = {
+			isa = PBXGroup;
+			children = (
+				F52D1FED2910FCB500D1A05F /* Collabera Team */,
+				F52D20072910FCB700D1A05F /* Collabera TeamTests */,
+				F52D20112910FCB700D1A05F /* Collabera TeamUITests */,
+				F52D1FEC2910FCB500D1A05F /* Products */,
+				F167A62E3B058427E3E38BEA /* Pods */,
+				3617DAB523B34658E437AF73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F52D1FEC2910FCB500D1A05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52D1FEB2910FCB500D1A05F /* Collabera Team.app */,
+				F52D20042910FCB700D1A05F /* Collabera TeamTests.xctest */,
+				F52D200E2910FCB700D1A05F /* Collabera TeamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52D1FED2910FCB500D1A05F /* Collabera Team */ = {
+			isa = PBXGroup;
+			children = (
+				F52D1FEE2910FCB500D1A05F /* AppDelegate.swift */,
+				F52D1FF02910FCB500D1A05F /* SceneDelegate.swift */,
+				F52D20A02911121100D1A05F /* MainCoordinator.swift */,
+				F52D1FF42910FCB500D1A05F /* Main.storyboard */,
+				F52D1FFC2910FCB700D1A05F /* LaunchScreen.storyboard */,
+				F52D1FFA2910FCB700D1A05F /* Assets.xcassets */,
+				F52D1FFF2910FCB700D1A05F /* Info.plist */,
+				F52D1FF72910FCB500D1A05F /* Collabera_Team.xcdatamodeld */,
+				F52D20A22911133200D1A05F /* Splash */,
+				F52D20EE2911173F00D1A05F /* Login */,
+				F52D20FF291117F600D1A05F /* EmployeeSection */,
+				F52D202B2911116400D1A05F /* Helper */,
+			);
+			path = "Collabera Team";
+			sourceTree = "<group>";
+		};
+		F52D20072910FCB700D1A05F /* Collabera TeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20082910FCB700D1A05F /* Collabera_TeamTests.swift */,
+				F55637C4291234B2003F1F8C /* EmployeeViewModelTest.swift */,
+			);
+			path = "Collabera TeamTests";
+			sourceTree = "<group>";
+		};
+		F52D20112910FCB700D1A05F /* Collabera TeamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20122910FCB700D1A05F /* Collabera_TeamUITests.swift */,
+				F52D20142910FCB700D1A05F /* Collabera_TeamUITestsLaunchTests.swift */,
+			);
+			path = "Collabera TeamUITests";
+			sourceTree = "<group>";
+		};
+		F52D202B2911116400D1A05F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F52D202D2911116400D1A05F /* UIColor.swift */,
+				F52D202E2911116400D1A05F /* UIView+AutoLayout.swift */,
+				F52D202F2911116400D1A05F /* CircularShapeLayer.swift */,
+				F52D20302911116400D1A05F /* Utilities */,
+				F52D20322911116400D1A05F /* Extenions */,
+				F52D20342911116400D1A05F /* CABasicAnimation.swift */,
+				F52D20352911116400D1A05F /* CustomNavigationController */,
+				F52D20392911116400D1A05F /* BaseView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F52D20302911116400D1A05F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20312911116400D1A05F /* RxBus.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F52D20322911116400D1A05F /* Extenions */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20332911116400D1A05F /* UiViewExtension.swift */,
+			);
+			path = Extenions;
+			sourceTree = "<group>";
+		};
+		F52D20352911116400D1A05F /* CustomNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20362911116400D1A05F /* CustomAnimationPresenter.swift */,
+				F52D20372911116400D1A05F /* CustomAnimationDismisser.swift */,
+				F52D20382911116400D1A05F /* CustomNavigationController.swift */,
+			);
+			path = CustomNavigationController;
+			sourceTree = "<group>";
+		};
+		F52D20A22911133200D1A05F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20A32911133200D1A05F /* Coordinator */,
+				F52D20A52911133200D1A05F /* Controller */,
+				F52D20A72911133200D1A05F /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F52D20A32911133200D1A05F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20A42911133200D1A05F /* SplashCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F52D20A52911133200D1A05F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20A62911133200D1A05F /* SplashViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F52D20A72911133200D1A05F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20A82911133200D1A05F /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F52D20EE2911173F00D1A05F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20F8291117CA00D1A05F /* Model */,
+				F52D20F5291117B200D1A05F /* View */,
+				F52D20F22911179800D1A05F /* ViewModel */,
+				F52D20EF2911177100D1A05F /* Coordinator */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F52D20EF2911177100D1A05F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20F02911178400D1A05F /* SignInCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F52D20F22911179800D1A05F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20F3291117A100D1A05F /* SignInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F52D20F5291117B200D1A05F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20F6291117BB00D1A05F /* SignInViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F52D20F8291117CA00D1A05F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F52D20FB291117DF00D1A05F /* Authentication.swift */,
+				F52D20FA291117DF00D1A05F /* SessionService.swift */,
+				F52D20F9291117DF00D1A05F /* SignInResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F52D20FF291117F600D1A05F /* EmployeeSection */ = {
+			isa = PBXGroup;
+			children = (
+				F52D212D291118C200D1A05F /* Model */,
+				F52D2123291118A900D1A05F /* View */,
+				F52D21202911189000D1A05F /* ViewModel */,
+				F52D21132911182D00D1A05F /* Controller */,
+			);
+			path = EmployeeSection;
+			sourceTree = "<group>";
+		};
+		F52D21132911182D00D1A05F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F52D21172911185E00D1A05F /* Employee */,
+				F52D21142911183F00D1A05F /* EmployeeDetails */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F52D21142911183F00D1A05F /* EmployeeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F52D211C2911187C00D1A05F /* AddEmployeeVC.swift */,
+				F52D21152911184A00D1A05F /* Coordinator */,
+			);
+			path = EmployeeDetails;
+			sourceTree = "<group>";
+		};
+		F52D21152911184A00D1A05F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F52D211E2911188200D1A05F /* EmployeeDetailsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F52D21162911185400D1A05F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F52D211A2911187600D1A05F /* EmployeesCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F52D21172911185E00D1A05F /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				F52D21182911186E00D1A05F /* EmployeesListVC.swift */,
+				F52D21162911185400D1A05F /* Coordinator */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		F52D21202911189000D1A05F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F52D21212911189600D1A05F /* EmployeeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F52D2123291118A900D1A05F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F52D2124291118AE00D1A05F /* xibs */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F52D2124291118AE00D1A05F /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				F52D2125291118B500D1A05F /* EmployeeTableCell.swift */,
+				F52D2127291118B500D1A05F /* EmployeeTableCell.xib */,
+				F52D2126291118B500D1A05F /* EnterDetailsTableCell.swift */,
+				F52D2128291118B500D1A05F /* EnterDetailsTableCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		F52D212D291118C200D1A05F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F52D212E291118C900D1A05F /* Employee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52D1FEA2910FCB500D1A05F /* Collabera Team */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52D20182910FCB700D1A05F /* Build configuration list for PBXNativeTarget "Collabera Team" */;
+			buildPhases = (
+				6123550CA76FE14F57DCB110 /* [CP] Check Pods Manifest.lock */,
+				F52D1FE72910FCB500D1A05F /* Sources */,
+				F52D1FE82910FCB500D1A05F /* Frameworks */,
+				F52D1FE92910FCB500D1A05F /* Resources */,
+				87BD4CBCE5504C48476AC3C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Collabera Team";
+			productName = "Collabera Team";
+			productReference = F52D1FEB2910FCB500D1A05F /* Collabera Team.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52D20032910FCB700D1A05F /* Collabera TeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52D201B2910FCB700D1A05F /* Build configuration list for PBXNativeTarget "Collabera TeamTests" */;
+			buildPhases = (
+				F27CA3437AF08E4598EA0EE1 /* [CP] Check Pods Manifest.lock */,
+				F52D20002910FCB700D1A05F /* Sources */,
+				F52D20012910FCB700D1A05F /* Frameworks */,
+				F52D20022910FCB700D1A05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52D20062910FCB700D1A05F /* PBXTargetDependency */,
+			);
+			name = "Collabera TeamTests";
+			productName = "Collabera TeamTests";
+			productReference = F52D20042910FCB700D1A05F /* Collabera TeamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F52D200D2910FCB700D1A05F /* Collabera TeamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52D201E2910FCB700D1A05F /* Build configuration list for PBXNativeTarget "Collabera TeamUITests" */;
+			buildPhases = (
+				A74FF138EB0EFD1DCFCD0256 /* [CP] Check Pods Manifest.lock */,
+				F52D200A2910FCB700D1A05F /* Sources */,
+				F52D200B2910FCB700D1A05F /* Frameworks */,
+				F52D200C2910FCB700D1A05F /* Resources */,
+				DB0E80074EA1E3A1C954B9CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52D20102910FCB700D1A05F /* PBXTargetDependency */,
+			);
+			name = "Collabera TeamUITests";
+			productName = "Collabera TeamUITests";
+			productReference = F52D200E2910FCB700D1A05F /* Collabera TeamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52D1FE32910FCB500D1A05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F52D1FEA2910FCB500D1A05F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F52D20032910FCB700D1A05F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F52D1FEA2910FCB500D1A05F;
+					};
+					F52D200D2910FCB700D1A05F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F52D1FEA2910FCB500D1A05F;
+					};
+				};
+			};
+			buildConfigurationList = F52D1FE62910FCB500D1A05F /* Build configuration list for PBXProject "Collabera Team" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F52D1FE22910FCB500D1A05F;
+			productRefGroup = F52D1FEC2910FCB500D1A05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52D1FEA2910FCB500D1A05F /* Collabera Team */,
+				F52D20032910FCB700D1A05F /* Collabera TeamTests */,
+				F52D200D2910FCB700D1A05F /* Collabera TeamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52D1FE92910FCB500D1A05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D212C291118B500D1A05F /* EnterDetailsTableCell.xib in Resources */,
+				F52D1FFE2910FCB700D1A05F /* LaunchScreen.storyboard in Resources */,
+				F52D1FFB2910FCB700D1A05F /* Assets.xcassets in Resources */,
+				F52D212B291118B500D1A05F /* EmployeeTableCell.xib in Resources */,
+				F52D1FF62910FCB500D1A05F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D20022910FCB700D1A05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D200C2910FCB700D1A05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6123550CA76FE14F57DCB110 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Collabera Team-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87BD4CBCE5504C48476AC3C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Collabera Team/Pods-Collabera Team-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Collabera Team/Pods-Collabera Team-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Collabera Team/Pods-Collabera Team-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74FF138EB0EFD1DCFCD0256 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Collabera Team-Collabera TeamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0E80074EA1E3A1C954B9CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Collabera Team-Collabera TeamUITests/Pods-Collabera Team-Collabera TeamUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Collabera Team-Collabera TeamUITests/Pods-Collabera Team-Collabera TeamUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Collabera Team-Collabera TeamUITests/Pods-Collabera Team-Collabera TeamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27CA3437AF08E4598EA0EE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Collabera TeamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52D1FE72910FCB500D1A05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D21192911186E00D1A05F /* EmployeesListVC.swift in Sources */,
+				F52D211D2911187C00D1A05F /* AddEmployeeVC.swift in Sources */,
+				F52D20A92911133200D1A05F /* SplashCoordinator.swift in Sources */,
+				F52D20FC291117DF00D1A05F /* SignInResponse.swift in Sources */,
+				F52D20FD291117DF00D1A05F /* SessionService.swift in Sources */,
+				F52D203B2911116400D1A05F /* UIColor.swift in Sources */,
+				F52D20AA2911133200D1A05F /* SplashViewController.swift in Sources */,
+				F52D20F4291117A100D1A05F /* SignInViewModel.swift in Sources */,
+				F52D212F291118C900D1A05F /* Employee.swift in Sources */,
+				F52D1FEF2910FCB500D1A05F /* AppDelegate.swift in Sources */,
+				F52D20A12911121100D1A05F /* MainCoordinator.swift in Sources */,
+				F52D203C2911116400D1A05F /* UIView+AutoLayout.swift in Sources */,
+				F52D20412911116400D1A05F /* CustomAnimationPresenter.swift in Sources */,
+				F52D203F2911116400D1A05F /* UiViewExtension.swift in Sources */,
+				F52D211F2911188200D1A05F /* EmployeeDetailsCoordinator.swift in Sources */,
+				F52D20432911116400D1A05F /* CustomNavigationController.swift in Sources */,
+				F52D203E2911116400D1A05F /* RxBus.swift in Sources */,
+				F52D20402911116400D1A05F /* CABasicAnimation.swift in Sources */,
+				F52D1FF92910FCB500D1A05F /* Collabera_Team.xcdatamodeld in Sources */,
+				F52D20F7291117BB00D1A05F /* SignInViewController.swift in Sources */,
+				F52D2129291118B500D1A05F /* EmployeeTableCell.swift in Sources */,
+				F52D20422911116400D1A05F /* CustomAnimationDismisser.swift in Sources */,
+				F52D20442911116400D1A05F /* BaseView.swift in Sources */,
+				F52D212A291118B500D1A05F /* EnterDetailsTableCell.swift in Sources */,
+				F52D203D2911116400D1A05F /* CircularShapeLayer.swift in Sources */,
+				F52D20F12911178400D1A05F /* SignInCoordinator.swift in Sources */,
+				F52D21222911189600D1A05F /* EmployeeViewModel.swift in Sources */,
+				F52D211B2911187600D1A05F /* EmployeesCoordinator.swift in Sources */,
+				F52D1FF12910FCB500D1A05F /* SceneDelegate.swift in Sources */,
+				F52D20AB2911133200D1A05F /* SplashView.swift in Sources */,
+				F52D20FE291117DF00D1A05F /* Authentication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D20002910FCB700D1A05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55637C5291234B2003F1F8C /* EmployeeViewModelTest.swift in Sources */,
+				F52D20092910FCB700D1A05F /* Collabera_TeamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D200A2910FCB700D1A05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D20132910FCB700D1A05F /* Collabera_TeamUITests.swift in Sources */,
+				F52D20152910FCB700D1A05F /* Collabera_TeamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52D20062910FCB700D1A05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52D1FEA2910FCB500D1A05F /* Collabera Team */;
+			targetProxy = F52D20052910FCB700D1A05F /* PBXContainerItemProxy */;
+		};
+		F52D20102910FCB700D1A05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52D1FEA2910FCB500D1A05F /* Collabera Team */;
+			targetProxy = F52D200F2910FCB700D1A05F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F52D1FF42910FCB500D1A05F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52D1FF52910FCB500D1A05F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F52D1FFC2910FCB700D1A05F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52D1FFD2910FCB700D1A05F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52D20162910FCB700D1A05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F52D20172910FCB700D1A05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52D20192910FCB700D1A05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA62AB4F5A8490AC74A0F5E /* Pods-Collabera Team.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Collabera Team/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.Collabera-Team";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52D201A2910FCB700D1A05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89BEA4E5DED008D96160940 /* Pods-Collabera Team.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Collabera Team/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.Collabera-Team";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F52D201C2910FCB700D1A05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0912282C1104F76BAF5F8004 /* Pods-Collabera TeamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.Collabera-TeamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collabera Team.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Collabera Team";
+			};
+			name = Debug;
+		};
+		F52D201D2910FCB700D1A05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3168026E48BD9720C1BD5181 /* Pods-Collabera TeamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.Collabera-TeamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collabera Team.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Collabera Team";
+			};
+			name = Release;
+		};
+		F52D201F2910FCB700D1A05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB477C475EA8E9F2B479E71 /* Pods-Collabera Team-Collabera TeamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.Collabera-TeamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Collabera Team";
+			};
+			name = Debug;
+		};
+		F52D20202910FCB700D1A05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C2B8EB786B202B77032C17 /* Pods-Collabera Team-Collabera TeamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.Collabera-TeamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Collabera Team";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52D1FE62910FCB500D1A05F /* Build configuration list for PBXProject "Collabera Team" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D20162910FCB700D1A05F /* Debug */,
+				F52D20172910FCB700D1A05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52D20182910FCB700D1A05F /* Build configuration list for PBXNativeTarget "Collabera Team" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D20192910FCB700D1A05F /* Debug */,
+				F52D201A2910FCB700D1A05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52D201B2910FCB700D1A05F /* Build configuration list for PBXNativeTarget "Collabera TeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D201C2910FCB700D1A05F /* Debug */,
+				F52D201D2910FCB700D1A05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52D201E2910FCB700D1A05F /* Build configuration list for PBXNativeTarget "Collabera TeamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D201F2910FCB700D1A05F /* Debug */,
+				F52D20202910FCB700D1A05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F52D1FF72910FCB500D1A05F /* Collabera_Team.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F52D1FF82910FCB500D1A05F /* Collabera_Team.xcdatamodel */,
+			);
+			currentVersion = F52D1FF82910FCB500D1A05F /* Collabera_Team.xcdatamodel */;
+			path = Collabera_Team.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F52D1FE32910FCB500D1A05F /* Project object */;
+}
